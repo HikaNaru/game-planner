@@ -1,0 +1,329 @@
+{
+    "shellCredit": {
+        "name": "Shell Credit",
+        "imageName": "shell-credit" 
+    },
+    "resonancePotion": {
+        "2": {
+            "name": "Basic Resonance Potion",
+            "imageName": "basic-resonance-potion",
+            "rarity": 2
+        },
+        "3": {
+            "name": "Medium Resonance Potion",
+            "imageName": "medium-resonance-potion",
+            "rarity": 3
+        },
+        "4": {
+            "name": "Advanced Resonance Potion",
+            "imageName": "advanced-resonance-potion",
+            "rarity": 4
+        },
+        "5": {
+            "name": "Premium Resonance Potion",
+            "imageName": "premium-resonance-potion",
+            "rarity": 5
+        }
+    },
+    "energyCore": {
+        "2": {
+            "name": "Basic Energy Core",
+            "imageName": "basic-energy-core",
+            "rarity": 2
+        },
+        "3": {
+            "name": "Medium Energy Core",
+            "imageName": "medium-energy-core",
+            "rarity": 3
+        },
+        "4": {
+            "name": "Advanced Energy Core",
+            "imageName": "advanced-energy-core",
+            "rarity": 4
+        },
+        "5": {
+            "name": "Premium Energy Core",
+            "imageName": "premium-energy-core",
+            "rarity": 5
+        }
+    },
+    "common": {
+        "whisperinCore": {
+            "2": {
+                "name": "LF Whisperin Core",
+                "imageName": "lf-whisperin-core",
+                "rarity": 2
+            },
+            "3": {
+                "name": "MF Whisperin Core",
+                "imageName": "mf-whisperin-core",
+                "rarity": 3
+            },
+            "4": {
+                "name": "HF Whisperin Core",
+                "imageName": "hf-whisperin-core",
+                "rarity": 4
+            },
+            "5": {
+                "name": "FF Whisperin Core",
+                "imageName": "ff-whisperin-core",
+                "rarity": 5
+            }
+        },
+        "howlerCore": {
+            "2": {
+                "name": "LF Howler Core",
+                "imageName": "lf-howler-core",
+                "rarity": 2
+            },
+            "3": {
+                "name": "MF Howler Core",
+                "imageName": "mf-howler-core",
+                "rarity": 3
+            },
+            "4": {
+                "name": "HF Howler Core",
+                "imageName": "hf-howler-core",
+                "rarity": 4
+            },
+            "5": {
+                "name": "FF Howler Core",
+                "imageName": "ff-howler-core",
+                "rarity": 5
+            }
+        },
+        "ring": {
+            "2": {
+                "name": "Crude Ring",
+                "imageName": "crude-ring",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Basic Ring",
+                "imageName": "basic-ring",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Improved Ring",
+                "imageName": "improved-ring",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Tailored Ring",
+                "imageName": "tailored-ring",
+                "rarity": 5
+            }
+        },
+        "mask": {
+            "2": {
+                "name": "Mask of Constraint",
+                "imangeName": "mask-of-constraint",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Mask of Erosion",
+                "imangeName": "mask-of-erosion",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Mask of Distortion",
+                "imangeName": "mask-of-distortion",
+                "rarity": 4
+            }
+        }
+    },
+    "special": {
+        "iris": {
+            "name": "Iris",
+            "imageName": "iris"
+        },
+        "terraspawnFungus": {
+            "name": "Terraspawn Fungus",
+            "imageName": "terraspawn-fungus"
+        },
+        "lanternberry": {
+            "name": "Lanternberry",
+            "imageName": "lanternberry"
+        },
+        "pecokFlower": {
+            "name": "Pecok Flower",
+            "imageName": "pecok-flower"
+        },
+        "coriolus": {
+            "name": "Coriolus",
+            "imageName": "coriolus"
+        },
+        "wintryBell": {
+            "name": "Wintry Bell",
+            "imageName": "wintry-bell"
+        },
+        "violetCoral": {
+            "name": "Violet Coral",
+            "imageName": "violet-coral"
+        }
+    },
+    "forgery": {
+        "metallicDrip": {
+            "2": {
+                "name": "Inert Metallic Drip",
+                "imageName": "inert-metallic-drip",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Reactive Metallic Drip",
+                "imageName": "reactive-metallic-drip",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Polarized Metallic Drip",
+                "imageName": "polarized-metallic-drip",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Heterized Metallic Drip",
+                "imageName": "heterized-metallic-drip",
+                "rarity": 5
+            }
+        },
+        "phlogiston": {
+            "2": {
+                "name": "Impure Phlogiston",
+                "imageName": "impure-phlogiston",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Extracted Phlogiston",
+                "imageName": "extracted-phlogiston",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Refined Phlogiston",
+                "imageName": "refined-phlogiston",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Flawless Phlogiston",
+                "imageName": "flawless-phlogiston",
+                "rarity": 5
+            }
+        },
+        "helix": {
+            "2": {
+                "name": "Lento Helix",
+                "imageName": "lento-helix",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Adagio Helix",
+                "imageName": "adagio-helix",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Andante Helix",
+                "imageName": "andante-helix",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Presto Helix",
+                "imageName": "presto-helix",
+                "rarity": 5
+            }
+        },
+        "wavewornResidue": {
+            "2": {
+                "name": "Waveworn Residue 210",
+                "imageName": "waveworn-residue-210",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Waveworn Residue 226",
+                "imageName": "waveworn-residue-226",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Waveworn Residue 235",
+                "imageName": "waveworn-residue-235",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Waveworn Residue 239",
+                "imageName": "waveworn-residue-239",
+                "rarity": 5
+            }
+        },
+        "cadence": {
+            "2": {
+                "name": "Cadence Seed",
+                "imageName": "cadence-seed",
+                "rarity": 2
+            },
+            "3": {
+                "name": "Cadence Bud",
+                "imageName": "cadence-bud",
+                "rarity": 3
+            },
+            "4": {
+                "name": "Cadence Leaf",
+                "imageName": "cadence-leaf",
+                "rarity": 4
+            },
+            "5": {
+                "name": "Cadence Blossom",
+                "imageName": "cadence-blossom",
+                "rarity": 5
+            }
+        }
+    },
+    "boss": {
+        "mysteriousCode": {
+            "name": "Mysterious Code",
+            "imageName": "mysterious-code"
+        },
+        "strifeTacetCore": {
+            "name": "Strife Tacet Core",
+            "imageName": "strife-tacet-core"
+        },
+        "elegyTacetCore": {
+            "name": "Elegy Tacet Core",
+            "imageName": "elegy-tacet-core"
+        },
+        "rageTacetCore": {
+            "name": "Rage Tacet Core",
+            "imageName": "rage-tacet-core"
+        },
+        "roaringRockFist": {
+            "name": "Roaring Rock Fist",
+            "imageName": "roaring-rock-fist"
+        },
+        "soundKeepingTacetCore": {
+            "name": "Sound-Keeping Tacet Core",
+            "imageName": "sound-keeping-tacet-core"
+        },
+        "hiddenThunderTacetCore": {
+            "name": "Hidden Thunder Tacet Core",
+            "imageName": "hidden-thunder-tacet-core"
+        },
+        "groupAbominationTacetCore": {
+            "name": "Group Abomination Tacet Core",
+            "imageName": "group-abomination-tacet-core"
+        },
+        "thunderingTacetCore": {
+            "name": "Thundering Tacet Core",
+            "imageName": "thundering-tacet-core"
+        }
+    },
+    "weeklyBoss": {
+        "monumentBell": {
+            "name": "Monument Bell",
+            "imageName": "monument-bell"
+        },
+        "unendingDestruction": {
+            "name": "Unending Destruction",
+            "imageName": "unending-destruction"
+        },
+        "unwarrantedFeather": {
+            "name": "Unwarranted Feather",
+            "imageName": "unwarranted-feather"
+        }
+    }
+}

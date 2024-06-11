@@ -1,0 +1,69 @@
+{
+    "2": {
+        "commonQty": 2,
+        "commonRarity": 2,
+        "forgeryQty": 2,
+        "forgeryRarity": 2,
+        "shellCredit": 2000
+    },
+    "3": {
+        "commonQty": 3,
+        "commonRarity": 2,
+        "forgeryQty": 3,
+        "forgeryRarity": 2,
+        "shellCredit": 2000
+    },
+    "4": {
+        "commonQty": 2,
+        "commonRarity": 3,
+        "forgeryQty": 2,
+        "forgeryRarity": 3,
+        "shellCredit": 5000
+    },
+    "5": {
+        "commonQty": 3,
+        "commonRarity": 3,
+        "forgeryQty": 3,
+        "forgeryRarity": 3,
+        "shellCredit": 6000
+    },
+    "6": {
+        "commonQty": 2,
+        "commonRarity": 4,
+        "forgeryQty": 3,
+        "forgeryRarity": 4,
+        "shellCredit": 16000
+    },
+    "7": {
+        "commonQty": 3,
+        "commonRarity": 4,
+        "forgeryQty": 5,
+        "forgeryRarity": 4,
+        "weeklyBossQty": 1,
+        "shellCredit": 30000
+    },
+    "8": {
+        "commonQty": 2,
+        "commonRarity": 5,
+        "forgeryQty": 2,
+        "forgeryRarity": 5,
+        "weeklyBossQty": 1,
+        "shellCredit": 50000
+    },
+    "9": {
+        "commonQty": 3,
+        "commonRarity": 5,
+        "forgeryQty": 3,
+        "forgeryRarity": 5,
+        "weeklyBossQty": 1,
+        "shellCredit": 70000
+    },
+    "10": {
+        "commonQty": 4,
+        "commonRarity": 5,
+        "forgeryQty": 6,
+        "forgeryRarity": 5,
+        "weeklyBossQty": 1,
+        "shellCredit": 100000
+    }
+}

@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Aalto",
+        "weapon": "Pistols",
+        "element": "Aero",
+        "rarity": 4,
+        "stats": {
+            "hp": 9850,
+            "atk": 263,
+            "def": 1076,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 150
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "wintryBell",
+            "forgery": "phlogiston",
+            "boss": "roaringRockFist",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Baizhi",
+        "weapon": "Rectifier",
+        "element": "Glacio",
+        "rarity": 4,
+        "stats": {
+            "hp": 12813,
+            "atk": 213,
+            "def": 1002,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 175
+        },
+        "minorFortes": {
+            "hp": 12,
+            "healingBonus": 12
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "lanternberry",
+            "forgery": "helix",
+            "boss": "soundKeepingTacetCore",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Calcharo",
+        "weapon": "Broadblade",
+        "element": "Electro",
+        "rarity": 5,
+        "stats": {
+            "hp": 10500,
+            "atk": 438,
+            "def": 1186,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "critDamage": 16,
+            "atk": 12
+        },
+        "materials": {
+            "common": "ring",
+            "special": "iris",
+            "forgery": "wavewornResidue",
+            "boss": "thunderingTacetCore",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Chixia",
+        "weapon": "Pistols",
+        "element": "Fusion",
+        "rarity": 4,
+        "stats": {
+            "hp": 9088,
+            "atk": 300,
+            "def": 953,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 150
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "bellePoppy",
+            "forgery": "phlogiston",
+            "boss": "rageTacetCore",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Danjin",
+        "weapon": "Sword",
+        "element": "Havoc",
+        "rarity": 4,
+        "stats": {
+            "hp": 9438,
+            "atk": 263,
+            "def": 1149,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 100
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "ring",
+            "special": "bellePoppy",
+            "forgery": "metallicDrip",
+            "boss": "strifeTacetCore",
+            "weeklyBoss": "unwarrantedFeather"
+        }
+    },
+    {
+        "name": "Encore",
+        "weapon": "Rectifier",
+        "element": "Fusion",
+        "rarity": 5,
+        "stats": {
+            "hp": 10513,
+            "atk": 425,
+            "def": 1247,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "pecokFlower",
+            "forgery": "helix",
+            "boss": "rageTacetCore",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Jianxin",
+        "weapon": "Gauntlets",
+        "element": "Aero",
+        "rarity": 5,
+        "stats": {
+            "hp": 14113,
+            "atk": 338,
+            "def": 1124,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 150
+        },
+        "minorFortes": {
+            "critRate": 8,
+            "atk": 12
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "lanternberry",
+            "forgery": "cadence",
+            "boss": "roaringRockFist",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Jiyan",
+        "weapon": "Broadblade",
+        "element": "Aero",
+        "rarity": 5,
+        "stats": {
+            "hp": 10488,
+            "atk": 438,
+            "def": 1186,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "critRate": 8,
+            "atk": 12
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "pecokFlower",
+            "forgery": "wavewornResidue",
+            "boss": "roaringRockFist",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Lingyang",
+        "weapon": "Gauntlets",
+        "element": "Glacio",
+        "rarity": 5,
+        "stats": {
+            "hp": 10388,
+            "atk": 438,
+            "def": 1210,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "coriolus",
+            "forgery": "cadence",
+            "boss": "soundKeepingTacetCore",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Mortefi",
+        "weapon": "Pistols",
+        "element": "Fusion",
+        "rarity": 4,
+        "stats": {
+            "hp": 10025,
+            "atk": 250,
+            "def": 1137,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "coriolus",
+            "forgery": "phlogiston",
+            "boss": "rageTacetCore",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Rover (Havoc)",
+        "weapon": "Sword",
+        "element": "Havoc",
+        "rarity": 5,
+        "stats": {
+            "hp": 10825,
+            "atk": 413,
+            "def": 1259,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "pecokFlower",
+            "forgery": "metallicDrip",
+            "boss": "mysteriousCode",
+            "weeklyBoss": "unwarrantedFeather"
+        }
+    },
+    {
+        "name": "Rover (Spectro)",
+        "weapon": "Sword",
+        "element": "Spectro",
+        "rarity": 5,
+        "stats": {
+            "hp": 11400,
+            "atk": 375,
+            "def": 1369,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "pecokFlower",
+            "forgery": "metallicDrip",
+            "boss": "mysteriousCode",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Sanhua",
+        "weapon": "Sword",
+        "element": "Glacio",
+        "rarity": 4,
+        "stats": {
+            "hp": 10063,
+            "atk": 275,
+            "def": 941,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 100
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "wintryBell",
+            "forgery": "metallicDrip",
+            "boss": "soundKeepingTacetCore",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Taoqi",
+        "weapon": "Broadblade",
+        "element": "Havoc",
+        "rarity": 4,
+        "stats": {
+            "hp": 8950,
+            "atk": 225,
+            "def": 1564,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "def": 15.2
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "iris",
+            "forgery": "wavewornResidue",
+            "boss": "goldDissolvingFeather",
+            "weeklyBoss": "unwarrantedFeather"
+        }
+    },
+    {
+        "name": "Verina",
+        "weapon": "Rectifier",
+        "element": "Spectro",
+        "rarity": 5,
+        "stats": {
+            "hp": 14238,
+            "atk": 338,
+            "def": 1100,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 175
+        },
+        "minorFortes": {
+            "atk": 12,
+            "healingBonus": 12
+        },
+        "materials": {
+            "common": "howlerCore",
+            "special": "bellePoppy",
+            "forgery": "helix",
+            "boss": "elegyTacetCore",
+            "weeklyBoss": "monumentBell"
+        }
+    },
+    {
+        "name": "Yangyang",
+        "weapon": "Sword",
+        "element": "Aero",
+        "rarity": 4,
+        "stats": {
+            "hp": 10200,
+            "atk": 250,
+            "def": 1100,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 100
+        },
+        "minorFortes": {
+            "elementalDamage": 12,
+            "atk": 12
+        },
+        "materials": {
+            "common": "ring",
+            "special": "wintryBell",
+            "forgery": "metallicDrip",
+            "boss": "roaringRockFist",
+            "weeklyBoss": "unendingDestruction"
+        }
+    },
+    {
+        "name": "Yinlin",
+        "weapon": "Rectifier",
+        "element": "Electro",
+        "rarity": 5,
+        "stats": {
+            "hp": 11000,
+            "atk": 400,
+            "def": 1283,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "critRate": 8,
+            "atk": 12
+        },
+        "materials": {
+            "common": "whisperinCore",
+            "special": "coriolus",
+            "forgery": "helix",
+            "boss": "groupAbominationTacetCore",
+            "weeklyBoss": "unwarrantedFeather"
+        }
+    },
+    {
+        "name": "Yuanwu",
+        "weapon": "Gauntlets",
+        "element": "Electro",
+        "rarity": 4,
+        "stats": {
+            "hp": 8525,
+            "atk": 225,
+            "def": 1638,
+            "critRate": 5,
+            "critDamage": 150,
+            "healingBonus": 0,
+            "elementalDamage": 0,
+            "energyRegen": 100,
+            "maxEnergy": 125
+        },
+        "minorFortes": {
+            "elementalDamage": 8,
+            "def": 15.2
+        },
+        "materials": {
+            "common": "ring",
+            "special": "terraspawnFungus",
+            "forgery": "helix",
+            "boss": "hiddenThunderTacetCore",
+            "weeklyBoss": "unendingDestruction"
+        }
+    }
+]
