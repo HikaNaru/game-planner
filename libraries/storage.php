@@ -8,6 +8,9 @@ class Storage
 
     private function getDir()
     {
+        if (!file_exists(STORAGE_PATH)) {
+            mkdir(BASE_PATH . '/storage');
+        }
         $dir = scandir(STORAGE_PATH);
         array_splice($dir, 0, 2);
 

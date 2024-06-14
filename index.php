@@ -5,6 +5,7 @@ declare(strict_types=1);
 require __DIR__ . '/vendor/autoload.php';
 
 define('ENVIRONMENT', 'development');
+define('BASE_PATH', __DIR__);
 define('STORAGE_PATH', __DIR__ . '/storage');
 
 error_reporting(E_ALL);
