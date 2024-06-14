@@ -1,0 +1,47 @@
+{
+    "genshinImpact": {
+        "label": "Genshin Impact",
+        "icon": "",
+        "subnav": [
+            {
+                "label": "Characters"
+            },
+            {
+                "label": "Inventory"
+            },
+            {
+                "label": "Plan"
+            }
+        ]
+    },
+    "honkaiStarRail": {
+        "label": "Honkai: Star Rail",
+        "icon": "",
+        "subnav": [
+            {
+                "label": "Characters"
+            },
+            {
+                "label": "Inventory"
+            },
+            {
+                "label": "Plan"
+            }
+        ]
+    },
+    "wutheringWaves": {
+        "label": "Wuthering Waves",
+        "icon": "",
+        "subnav": [
+            {
+                "label": "Characters"
+            },
+            {
+                "label": "Inventory"
+            },
+            {
+                "label": "Plan"
+            }
+        ]
+    }
+}

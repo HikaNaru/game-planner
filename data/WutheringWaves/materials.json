@@ -149,6 +149,10 @@
             "name": "Pecok Flower",
             "imageName": "pecok-flower"
         },
+        "bellePoppy": {
+            "name": "Belle Poppy",
+            "imageName": "belle-poppy"
+        },
         "coriolus": {
             "name": "Coriolus",
             "imageName": "coriolus"
@@ -303,6 +307,10 @@
             "name": "Hidden Thunder Tacet Core",
             "imageName": "hidden-thunder-tacet-core"
         },
+        "goldDissolvingFeather": {
+            "name": "Gold-Dissolving Feather",
+            "imageName": "gold-dissolving-feather"
+        },
         "groupAbominationTacetCore": {
             "name": "Group Abomination Tacet Core",
             "imageName": "group-abomination-tacet-core"
@@ -321,9 +329,9 @@
             "name": "Unending Destruction",
             "imageName": "unending-destruction"
         },
-        "unwarrantedFeather": {
-            "name": "Unwarranted Feather",
-            "imageName": "unwarranted-feather"
+        "dreamlessFeather": {
+            "name": "Dreamless Feather",
+            "imageName": "dreamless-feather"
         }
     }
 }
