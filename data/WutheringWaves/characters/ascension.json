@@ -7,35 +7,35 @@
     "40": {
         "commonMaterialQty": 4,
         "commonMaterialRarity": 3,
-        "specialMaterialQty": 4,
+        "ascensionMaterialQty": 4,
         "bossMaterialQty": 3,
         "shellCredit": 10000
     },
     "50": {
         "commonMaterialQty": 8,
         "commonMaterialRarity": 3,
-        "specialMaterialQty": 8,
+        "ascensionMaterialQty": 8,
         "bossMaterialQty": 6,
         "shellCredit": 15000
     },
     "60": {
         "commonMaterialQty": 4,
         "commonMaterialRarity": 4,
-        "specialMaterialQty": 12,
+        "ascensionMaterialQty": 12,
         "bossMaterialQty": 9,
         "shellCredit": 20000
     },
     "70": {
         "commonMaterialQty": 8,
         "commonMaterialRarity": 4,
-        "specialMaterialQty": 16,
+        "ascensionMaterialQty": 16,
         "bossMaterialQty": 12,
         "shellCredit": 40000
     },
     "80": {
         "commonMaterialQty": 4,
         "commonMaterialRarity": 5,
-        "specialMaterialQty": 20,
+        "ascensionMaterialQty": 20,
         "bossMaterialQty": 16,
         "shellCredit": 80000
     }

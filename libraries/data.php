@@ -6,6 +6,7 @@ class Data
 {
     public static function getNav()
     {
-        return include './data/nav.json';
+        $json = file_get_contents('./data/nav.json');
+        return json_decode($json, true);
     }
 }
