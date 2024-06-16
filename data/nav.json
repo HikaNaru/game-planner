@@ -1,7 +1,7 @@
 {
     "genshinImpact": {
         "label": "Genshin Impact",
-        "icon": "",
+        "icon": "genshin-impact.png",
         "subnav": [
             {
                 "label": "Characters"
@@ -16,7 +16,7 @@
     },
     "honkaiStarRail": {
         "label": "Honkai: Star Rail",
-        "icon": "",
+        "icon": "honkai-star-rail.png",
         "subnav": [
             {
                 "label": "Characters"
@@ -31,7 +31,7 @@
     },
     "wutheringWaves": {
         "label": "Wuthering Waves",
-        "icon": "",
+        "icon": "wuthering-waves.png",
         "subnav": [
             {
                 "label": "Characters"

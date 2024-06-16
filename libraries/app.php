@@ -42,6 +42,10 @@ class App
         return $default;
     }
 
+    public static function image($path) {
+        return './media/img/' . $path;
+    }
+
     public static function dd(...$args)
     {
         foreach ($args as $arg) {
