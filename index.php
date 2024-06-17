@@ -7,7 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 define('ENVIRONMENT', 'development');
 define('BASE_PATH', __DIR__);
 define('STORAGE_PATH', __DIR__ . '/storage');
-define('CURL_BASE', $_SERVER['HTTP_HOST']);
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST']);
 
 error_reporting(E_ALL);
 
