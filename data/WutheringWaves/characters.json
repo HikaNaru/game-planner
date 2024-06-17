@@ -4,6 +4,7 @@
         "weapon": "Pistols",
         "element": "Aero",
         "rarity": 4,
+        "icon": "aalto.webp",
         "stats": {
             "hp": 9850,
             "atk": 263,
@@ -32,6 +33,7 @@
         "weapon": "Rectifier",
         "element": "Glacio",
         "rarity": 4,
+        "icon": "baizhi.webp",
         "stats": {
             "hp": 12813,
             "atk": 213,
@@ -60,6 +62,7 @@
         "weapon": "Broadblade",
         "element": "Electro",
         "rarity": 5,
+        "icon": "calcharo.webp",
         "stats": {
             "hp": 10500,
             "atk": 438,
@@ -88,6 +91,7 @@
         "weapon": "Pistols",
         "element": "Fusion",
         "rarity": 4,
+        "icon": "chixia.webp",
         "stats": {
             "hp": 9088,
             "atk": 300,
@@ -116,6 +120,7 @@
         "weapon": "Sword",
         "element": "Havoc",
         "rarity": 4,
+        "icon": "danjin.webp",
         "stats": {
             "hp": 9438,
             "atk": 263,
@@ -144,6 +149,7 @@
         "weapon": "Rectifier",
         "element": "Fusion",
         "rarity": 5,
+        "icon": "encore.webp",
         "stats": {
             "hp": 10513,
             "atk": 425,
@@ -172,6 +178,7 @@
         "weapon": "Gauntlets",
         "element": "Aero",
         "rarity": 5,
+        "icon": "jianxin.webp",
         "stats": {
             "hp": 14113,
             "atk": 338,
@@ -200,6 +207,7 @@
         "weapon": "Broadblade",
         "element": "Aero",
         "rarity": 5,
+        "icon": "jiyan.webp",
         "stats": {
             "hp": 10488,
             "atk": 438,
@@ -228,6 +236,7 @@
         "weapon": "Gauntlets",
         "element": "Glacio",
         "rarity": 5,
+        "icon": "lingyang.webp",
         "stats": {
             "hp": 10388,
             "atk": 438,
@@ -256,6 +265,7 @@
         "weapon": "Pistols",
         "element": "Fusion",
         "rarity": 4,
+        "icon": "mortefi.webp",
         "stats": {
             "hp": 10025,
             "atk": 250,
@@ -284,6 +294,7 @@
         "weapon": "Sword",
         "element": "Havoc",
         "rarity": 5,
+        "icon": "rover.webp",
         "stats": {
             "hp": 10825,
             "atk": 413,
@@ -312,6 +323,7 @@
         "weapon": "Sword",
         "element": "Spectro",
         "rarity": 5,
+        "icon": "rover.webp",
         "stats": {
             "hp": 11400,
             "atk": 375,
@@ -340,6 +352,7 @@
         "weapon": "Sword",
         "element": "Glacio",
         "rarity": 4,
+        "icon": "sanhua.webp",
         "stats": {
             "hp": 10063,
             "atk": 275,
@@ -368,6 +381,7 @@
         "weapon": "Broadblade",
         "element": "Havoc",
         "rarity": 4,
+        "icon": "taoqi.webp",
         "stats": {
             "hp": 8950,
             "atk": 225,
@@ -396,6 +410,7 @@
         "weapon": "Rectifier",
         "element": "Spectro",
         "rarity": 5,
+        "icon": "verina.webp",
         "stats": {
             "hp": 14238,
             "atk": 338,
@@ -424,6 +439,7 @@
         "weapon": "Sword",
         "element": "Aero",
         "rarity": 4,
+        "icon": "yangyang.webp",
         "stats": {
             "hp": 10200,
             "atk": 250,
@@ -452,6 +468,7 @@
         "weapon": "Rectifier",
         "element": "Electro",
         "rarity": 5,
+        "icon": "yinlin.webp",
         "stats": {
             "hp": 11000,
             "atk": 400,
@@ -480,6 +497,7 @@
         "weapon": "Gauntlets",
         "element": "Electro",
         "rarity": 4,
+        "icon": "yuanwu.webp",
         "stats": {
             "hp": 8525,
             "atk": 225,

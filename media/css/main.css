@@ -24,8 +24,15 @@ html {
 
 body {
     margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
     background-color: #151515;
     color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .material-symbols {
@@ -66,7 +73,7 @@ body {
     background-color: dodgerblue;
 }
 
-.navigation:hover .nav.active {
+.navigation:hover .nav.collapsible.active {
     background-color: unset;
 }
 
@@ -80,6 +87,10 @@ body {
 .navigation .nav .nav-wrapper > div {
     display: flex;
     align-items: center;
+}
+
+.navigation .nav .nav-wrapper .nav-image {
+    font-size: 50px;
 }
 
 .navigation .nav .nav-wrapper img {
@@ -117,10 +128,52 @@ body {
     display: flex;
 }
 
-.navigation .nav .subnav div {
+.navigation .nav .subnav a {
     padding: 0.5rem 1rem;
 }
 
-.navigation .nav .subnav div:hover {
+.navigation .nav .subnav a.active, .navigation .nav .subnav a:hover {
     background-color: dodgerblue;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.content .title {
+    text-align: center;
+}
+
+.character-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+}
+
+.character-wrapper {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.character-wrapper img {
+    width: 100px;
+    height: 100px;
+}
+
+.character-wrapper:hover img {
+    transform: scale(1.1);
+    transition: 0.1s linear transform;
+}
+
+.character-wrapper .character-name {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    z-index: 1;
 }

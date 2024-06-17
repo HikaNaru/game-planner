@@ -1,10 +1,15 @@
 {
+    "home": {
+        "label": "Home",
+        "icon": "home"
+    },
     "genshinImpact": {
         "label": "Genshin Impact",
         "icon": "genshin-impact.png",
         "subnav": [
             {
-                "label": "Characters"
+                "label": "Characters",
+                "url": "/genshin-impact/characters"
             },
             {
                 "label": "Inventory"
@@ -34,13 +39,16 @@
         "icon": "wuthering-waves.png",
         "subnav": [
             {
-                "label": "Characters"
+                "label": "Characters",
+                "url": "/wuthering-waves/characters"
             },
             {
-                "label": "Inventory"
+                "label": "Inventory",
+                "url": "/wuthering-waves/inventory"
             },
             {
-                "label": "Plan"
+                "label": "Plan",
+                "url": "/wuthering-waves/plan"
             }
         ]
     }
