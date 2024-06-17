@@ -7,6 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 define('ENVIRONMENT', 'development');
 define('BASE_PATH', __DIR__);
 define('STORAGE_PATH', __DIR__ . '/storage');
+define('CURL_BASE', $_SERVER['HTTP_HOST']);
 
 error_reporting(E_ALL);
 
@@ -26,6 +27,9 @@ if (!function_exists('view')) {
     }
 }
 
-Router::get('/', function () {
-    return view('page');
-});
+Router::get('/', 'Home@index');
+
+Router::get('/wuthering-waves/characters', 'WutheringWaves\\Characters@index');
+Router::get('/wuthering-waves/characters/(\w+)', 'WutheringWaves\\Characters@character');
+Router::get('/wuthering-waves/inventory', 'WutheringWaves\\Inventory@index');
+Router::get('/wuthering-waves/plan', 'WutheringWaves\\Plan@index');

@@ -42,12 +42,33 @@ class App
         return $default;
     }
 
-    public static function image($path) {
-        return './media/img/' . $path;
+    public static function transpose($array)
+    {
+        $newArray = [];
+        foreach ($array as $key => $value) {
+            foreach ($value as $index => $v) {
+                $newArray[$index][] = $v;
+            }
+        }
+        return $newArray;
+    }
+
+    public static function url($path)
+    {
+        return CURL_BASE . '/' . $path;
+    }
+
+    public static function image($path)
+    {
+        return CURL_BASE . '/media/img/' . $path;
     }
 
     public static function dd(...$args)
     {
+        if (ob_get_level() > 0) {
+            ob_clean();
+        }
+
         foreach ($args as $arg) {
             echo '<pre>';
             print_r($arg);

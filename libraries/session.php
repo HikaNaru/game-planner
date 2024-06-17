@@ -7,9 +7,10 @@ class Session
     private static $instance;
     private $state = false;
 
-    public static function instance() {
+    public static function instance()
+    {
         if (!isset(static::$instance)) {
-            static::$instance = new static;
+            static::$instance = new static();
         }
 
         static::$instance->start();
@@ -17,7 +18,8 @@ class Session
         return static::$instance;
     }
 
-    private function start() {
+    private function start()
+    {
         if (!$this->state) {
             $this->state = session_start();
         }
@@ -25,23 +27,28 @@ class Session
         return $this->state;
     }
 
-    public function __set($name, $value) {
+    public function __set($name, $value)
+    {
         $_SESSION[$name] = $value;
     }
 
-    public function __get($name) {
+    public function __get($name)
+    {
         return App::get($_SESSION, $name);
     }
 
-    public function __isset($name) {
+    public function __isset($name)
+    {
         return isset($_SESSION[$name]);
     }
 
-    public function __unset($name) {
+    public function __unset($name)
+    {
         unset($_SESSION[$name]);
     }
 
-    public function destroy() {
+    public function destroy()
+    {
         if ($this->state) {
             $this->state = !session_destroy();
             unset($_SESSION);
