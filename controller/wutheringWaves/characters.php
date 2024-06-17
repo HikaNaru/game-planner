@@ -12,7 +12,7 @@ class Characters extends WutheringWaves
     {
         $this->title .= ' - Characters';
         $this->nav = 'characters';
-        return view('characters', $this->getDefaultData());
+        return view('character-list', $this->getDefaultData());
     }
 
     public function character(Request $request)
@@ -21,6 +21,6 @@ class Characters extends WutheringWaves
         $name = App::get($params, 0);
         $this->title .= ' - ' . ucwords($name);
         $this->nav = 'characters';
-        return view('characters', $this->getDefaultData());
+        return view('character', $this->getDefaultData());
     }
 }
