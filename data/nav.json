@@ -9,7 +9,7 @@
         "subnav": [
             {
                 "label": "Characters",
-                "url": "/genshin-impact/characters"
+                "url": "genshin-impact/characters"
             },
             {
                 "label": "Inventory"
@@ -40,15 +40,15 @@
         "subnav": [
             {
                 "label": "Characters",
-                "url": "/wuthering-waves/characters"
+                "url": "wuthering-waves/characters"
             },
             {
                 "label": "Inventory",
-                "url": "/wuthering-waves/inventory"
+                "url": "wuthering-waves/inventory"
             },
             {
                 "label": "Plan",
-                "url": "/wuthering-waves/plan"
+                "url": "wuthering-waves/plan"
             }
         ]
     }

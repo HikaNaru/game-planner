@@ -2,6 +2,6 @@
 
 namespace GamePlanner\Controller\GenshinImpact;
 
-class Characters {
-
+class Characters
+{
 }

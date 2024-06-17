@@ -53,14 +53,14 @@ class App
         return $newArray;
     }
 
-    public static function url($path)
+    public static function url($path = '')
     {
-        return CURL_BASE . '/' . $path;
+        return BASE_URL . '/' . $path;
     }
 
     public static function image($path)
     {
-        return CURL_BASE . '/media/img/' . $path;
+        return BASE_URL . '/media/img/' . $path;
     }
 
     public static function dd(...$args)

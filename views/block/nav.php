@@ -18,13 +18,13 @@
         </div>
         <div class="subnav" :class="isOpen ? 'collapsed' : ''">
 <?php foreach (App::get($nav, 'subnav', []) as $sub): ?>
-            <a href="<?= App::get($sub, 'url') ?>" :class="subnavClasses('<?= $key ?>', '<?= $game ?>', '<?= App::get($sub, 'label') ?>', '<?= $navActive ?>')">
+            <a href="<?= App::url(App::get($sub, 'url')) ?>" :class="subnavClasses('<?= $key ?>', '<?= $game ?>', '<?= App::get($sub, 'label') ?>', '<?= $navActive ?>')">
                 <?= App::get($sub, 'label') ?>
             </a>
 <?php endforeach ?>
         </div>
 <?php else: ?>
-        <a href="/" class="nav-wrapper">
+        <a href="<?= App::url() ?>" class="nav-wrapper">
             <div>
                 <div class="nav-image material-symbols">home</div>
                 <label><?= App::get($nav, 'label') ?></label>
