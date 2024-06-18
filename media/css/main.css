@@ -185,3 +185,82 @@ a {
 .character-wrapper:hover .character-name {
     opacity: 1;
 }
+
+.material-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 100px);
+    gap: 1rem;
+}
+.material-wrapper {
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.material-wrapper .image-wrapper {
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.material-wrapper .material-text {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+}
+.material-wrapper .material-image {
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+.material-wrapper:hover .material-image {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.1s linear transform;
+}
+.material-wrapper .material-input {
+    margin-top: 0.5rem;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "input input"
+        "span span";
+    gap: 0.25rem;
+}
+.material-wrapper .material-input input {
+    grid-area: input;
+    padding: 0;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'JosefinSans';
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    appearance: textfield;
+}
+.material-wrapper .material-input input::-webkit-inner-spin-button,
+.material-wrapper .material-input input::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+.material-wrapper .material-input span {
+    grid-area: span;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    font-size: 1.5em;
+    opacity: 0.9;
+}
+.material-wrapper .material-input span:hover {
+    opacity: 1;
+}
